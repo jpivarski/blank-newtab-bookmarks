@@ -1,0 +1,1 @@
+# blank-newtab-bookmarks
