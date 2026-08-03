@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Blank New Tab + Bookmarks Bar",
+  "version": "1.0.1",
+  "description": "A blank new tab page that shows only your Bookmarks Bar — hide the real toolbar from your window and keep it just for new tabs.",
+  "permissions": ["bookmarks", "storage", "favicon"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}
